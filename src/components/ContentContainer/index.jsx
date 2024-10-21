@@ -1,19 +1,26 @@
 import styled from "styled-components";
 
 const StyledContentContainer = styled.section`
-    width: 1200px;
+    width: 85%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: center;
-    margin-bottom: 75px;
+    text-align: center;
+    margin: 3rem 0;
+
+    @media (max-width: 600px) {
+        p {
+            font-size: 1.1rem;
+        }
+    }
 `
 
-const ContentContainer = ({ children }) => {
+const ContentContainer = ({ children, idName }) => {
     return (
-        <StyledContentContainer>
+        <StyledContentContainer id={idName} >
             {children}
         </StyledContentContainer>
     )

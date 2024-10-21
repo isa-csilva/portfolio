@@ -9,10 +9,12 @@ import ContentColorfulBox from "../../ContentColorfulBox";
 
 const IconsList = styled.ul`
     list-style-type: none;
+    padding: 0 0.5rem;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 65px;
-    margin: 20px;
+    gap: 4rem;
 `
 
 const IconItem = styled.li`
@@ -23,8 +25,19 @@ const IconItem = styled.li`
     p {
         font-weight: 500;
         color: #B4A5A5;
-        margin-top: 15px;
+        margin-top: 1rem;
         margin-bottom: 0;
+    }
+
+    @media (max-width: 600px) {
+        svg {
+            width: 2.5rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
     }
 `
 

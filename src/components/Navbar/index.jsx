@@ -1,47 +1,41 @@
 import styled from "styled-components";
+import NavbarDrawer from "./Drawer";
+import NavbarLinks from "./NavbarLinks";
+
+import { useRef } from "react"; 
 
 const StyledNavbar = styled.nav`
+    margin: 1rem 0;
 
-    ul {
-        margin: 0;
-        padding-top: 35px;
-        list-style-type: none;
-        font-weight: 600;
-        font-size: 18px;
-        display: flex;
-        gap: 25px;
-        justify-content: center;
+    .ant-btn {
+        display: none;
     }
 
-    a {
-        color: #bd6a93;
-        text-decoration: none;
-        padding: 5px;
-    }
+    .ant-drawer-header, .ant-drawer-body {
+            background: #151515;
+         }
 
-    a:hover {
-        transition: 0.5s;
-        border-bottom: 1px solid;
-        color: #3C415C;
+    @media (max-width: 600px) {
+        margin: 1rem 0 0 1rem;
+
+        .ant-btn {
+            display: flex;
+        }
+
+        ul {
+            display: none;
+        }
     }
 `
 
+
 const Navbar = () => {
+
     return (
         <>
             <StyledNavbar>
-                <ul>
-                    <li>
-                        <a href="">Sobre mim </a>
-                    </li>
-                    <li>
-                        <a href="">Habilidades e Conhecimentos</a>
-                    </li>
-                    <li>
-                        <a href="">Contato</a>
-                    </li>
-                </ul>
-                
+                <NavbarDrawer />
+                <NavbarLinks />
             </StyledNavbar>
         </>
     )

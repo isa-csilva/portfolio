@@ -6,15 +6,21 @@ import ContentColorfulBox from '../ContentColorfulBox';
 import ContentContainer from '../ContentContainer';
 
 const SiteInfoContainer = styled.div`
-    height: 70px;
+    width: 100vw;
+    height: 4.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: center;
 
     p {
         font-weight: 300;
         color: #3C415C;
-        letter-spacing: 2px;
+        letter-spacing: 0.15rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 0.8rem;
     }
 `
 
@@ -28,7 +34,7 @@ const Footer = () => {
     
     return (
         <>
-        <ContentContainer>
+        <ContentContainer idName='footer'>
             <Title>Entre em contato comigo</Title>
             <Text posicao={'centro'}>
                 {txtContact}

@@ -9,8 +9,8 @@ const Hardskills = () => {
         As tecnologias listadas a baixo são as tecnologias as quais já estudei e já utilizei.
     </p>
     return (
-        <ContentContainer>
-            <Title>Habilidades e Conhecimentos</Title>
+        <ContentContainer idName='hardskills'>
+            <Title>Hardskills e Tecnologias</Title>
             <Text>
                 {txtHardSkills}
             </Text>

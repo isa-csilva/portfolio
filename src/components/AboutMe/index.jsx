@@ -18,7 +18,7 @@ const AboutMe = () => {
     </p>
 
     return (
-        <ContentContainer>
+        <ContentContainer idName='abtMe'>
             <Title>Sobre Mim</Title>
             <Text>
                 {txtAboutMe}

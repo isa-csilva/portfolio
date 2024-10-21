@@ -7,6 +7,7 @@ const StyledContactList = styled.ul`
     list-style: none;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 0;
@@ -16,23 +17,48 @@ const StyledContactList = styled.ul`
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
 
         span {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 0.9rem;
             font-weight: 600;
-            font-size: 20px;
-            margin: 5px 0;
+            font-size: 1.25rem;
+            margin: 0.5rem 0;
         }
 
         a {
             color: #B4A5A5;
-            margin-top: 10px;
             text-decoration: none;
+            margin: 0.5rem 0
         }
-        a:hover {
+        a:hover, a:active {
             color: #bd6a93;
+        }        
+    }
+
+    @media (max-width: 900px) {
+        justify-content: center;
+        gap: 1rem;
+
+            li {
+                flex-direction: row;
+                gap: 0.5rem;
+            }
+        }
+
+    @media (max-width: 600px) {
+        li span, p, a {
+            font-size: 1rem;
+            gap: 0.5rem;
+        }
+    }
+
+    @media (max-width: 400px) {
+        li span, p, a {
+            font-size: 0.9rem;
+            gap: 0.5rem;
         }
     }
 `

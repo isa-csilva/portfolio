@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 const StyledText = styled.div`
         color: #B4A5A5;
-        font-size: 20px;
+        font-size: 1.2rem;
         font-weight: 300;
-        line-height: 30px;
+        line-height: 1.8rem;
         margin-top: 0;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         text-align: ${props => props.$posicao ? 'center' : 'justify'};
 
         span {
