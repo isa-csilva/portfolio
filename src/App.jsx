@@ -5,6 +5,7 @@ import Header from "./components/Header"
 import AboutMe from "./components/AboutMe"
 import Hardskills from "./components/Hardskills"
 import Footer from "./components/Footer"
+import Projects from "./components/Projects"
 
 
 const Background = styled.div`
@@ -15,8 +16,8 @@ const Background = styled.div`
 
 const AppContainer = styled.div`
   width: 90rem;
-  margin: 0 auto;
   max-width: 100vw;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 `
@@ -31,6 +32,7 @@ const App = () => {
         <Header />
         <AboutMe/>
         <Hardskills />
+        <Projects />
         <Footer />
       </AppContainer>    
     </Background>

@@ -2,8 +2,6 @@ import styled from "styled-components";
 import NavbarDrawer from "./Drawer";
 import NavbarLinks from "./NavbarLinks";
 
-import { useRef } from "react"; 
-
 const StyledNavbar = styled.nav`
     margin: 1rem 0;
 

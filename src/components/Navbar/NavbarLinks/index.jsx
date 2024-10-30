@@ -46,6 +46,9 @@ const NavbarLinks = () => {
                     <a href="#hardskills">Hardskills e Tecnologias</a>
                 </li>
                 <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
                     <a href="#footer">Contato</a>
                 </li>
         </StyledNavbarLinks>

@@ -6,7 +6,7 @@ import ContentColorfulBox from '../ContentColorfulBox';
 import ContentContainer from '../ContentContainer';
 
 const SiteInfoContainer = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 4.5rem;
     display: flex;
     align-items: center;

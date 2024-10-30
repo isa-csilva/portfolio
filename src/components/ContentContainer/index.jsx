@@ -12,8 +12,11 @@ const StyledContentContainer = styled.section`
     margin: 3rem 0;
 
     @media (max-width: 600px) {
+        h2 {
+            font-size: 1.8rem;
+        }
         p {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
     }
 `

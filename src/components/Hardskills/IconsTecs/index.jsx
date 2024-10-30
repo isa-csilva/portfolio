@@ -4,6 +4,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiMysql } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
+import { FaAngular } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 import ContentColorfulBox from "../../ContentColorfulBox";
 
@@ -64,6 +66,14 @@ const IconsTecs = () => {
                 <IconItem>
                     <FaCss3Alt size={65} color={"#B4A5A5"}/>
                     <p>CSS</p>
+                </IconItem>
+                <IconItem>
+                    <FaAngular size={65} color={"#B4A5A5"}/>
+                    <p>Angular</p>
+                </IconItem>
+                <IconItem>
+                    <SiTypescript  size={65} color={"#B4A5A5"}/>
+                    <p>TypeScript</p>
                 </IconItem>
             </IconsList>
         </ContentColorfulBox>
