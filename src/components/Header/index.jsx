@@ -83,7 +83,7 @@ const Header = () => {
                     <p>Olá, eu sou a</p>
                     <h1>Isabelly Costa Silva</h1>
                     <h2>Desenvolvedora Front-End</h2>
-                    <p>Seja bem-vindo(a) ao meu portifólio! <br></br>
+                    <p>Seja bem-vindo(a) ao meu portfólio! <br></br>
                         Por aqui você verá um pouco sobre mim, minhas habilidades e conhecimentos,
                         meus projetos pessoais e minhas informações de contato. ✨</p>
                 </TextHeader>
