@@ -12,7 +12,7 @@ const AboutMe = () => {
         
         Ao longo da minha jornada como estudante de Desenvolvimento Front-end já estudei e desenvolvi aplicações e sites com <strong><span>HTML, CSS, JavaScript, React, Angular, Phyton e MySQL.</span></strong> No momento, tenho como foco os estudos em React! <br></br><br></br>
 
-        Atualmente sou graduanda em <strong>Engenharia de Software</strong>, sempre fui muito dedicada aos estudos e empenhada em aprender cada vez mais,
+        Atualmente sou graduanda em <strong>Análise e Desenvolvimento de Sistemas</strong> pela <strong>Universidade Federal do Vale do São Francisco (UNIVASF)</strong>, sempre fui muito dedicada aos estudos e empenhada em aprender cada vez mais,
             com isso, nessa segunda graduação estou aprofundado meus conhecimentos sobre os processos de desenvolvimento de software, sua arquitetura, e demais assuntos teóricos
             também muito importantes para qualquer profissional.
     </p>
